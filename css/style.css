@@ -1,0 +1,57 @@
+*{
+    border:0;
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: 'yekan';
+    src: url(../fonts/Yekan.eot);
+    src: url(../fonts/Yekan.ttf);
+    src: url(../fonts/Yekan.woff);     
+}
+body{
+    font-family: 'yekan';
+}
+
+.title{
+    background: chartreuse;
+    text-align: center;
+    color:#fff;
+    font-size: 12px;
+    padding: 10px;
+}
+.box{
+    background: rgb(0, 255, 255);
+    width: 100%;
+    color: rgb(0, 102, 255);
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 21px;
+    margin-bottom: 0px;
+}
+.main{
+    width:100%;
+    background-color:#ecf0f1;
+    padding: 12px;
+}
+.main .myform{
+    width:47%;
+    padding: -100px;
+    margin: 0px;
+}
+.main .myform form input[type="text"] , .main .myform form input[type="number"] , .main .myform form input[type="text"]{
+    width:50%;
+    padding:6px;
+    border-right: dashed #2ecc71; 
+    background-color:#fff;
+ 
+}
+.myform label{
+    display: block;
+    margin-top: 12px;
+}
+.main .myform form .lable{
+    display:block;
+    margin-top: 12px;
+}
