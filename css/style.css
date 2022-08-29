@@ -41,7 +41,7 @@ body{
     margin: 0px;
 }
 .main .myform form input[type="text"] , .main .myform form input[type="number"] , .main .myform form input[type="text"]{
-    width:50%;
+    width:60%;
     padding:6px;
     border-right: dashed #2ecc71; 
     background-color:#fff;
