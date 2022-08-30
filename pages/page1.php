@@ -39,11 +39,11 @@
         echo '<h2 class="th">ثبت نام شما با موفقیت انجام شد</h2>';
         echo "$name"."&nbsp;"."&nbsp;"."عزیز"; 
         echo "<h4>برای ورود به سایت کافیست رو دکمه زیر کلیک کنید.</h4>";
-       
+       echo '<a href="page2.php" class="on">ورود</a>';
         
         
     ?>
     
-     <a href="page2.php" class="on">ورود</a>
+     
 </body>
 </html>

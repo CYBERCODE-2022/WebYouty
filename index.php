@@ -40,7 +40,7 @@
 
    <div class="main">
       <div class="myform">
-            <form method="get" action="pages/page1.php">
+            <form method="get" action="pages/page1.">
                 <label>نام و نام خانوادگی :</label>
                 <input type="text" name="name" placeholder="نام و نام خانوادگی">
 
