@@ -35,7 +35,7 @@
         $numphon=$_POST['phonnumber']??'';
         $NationalCode=$_POST['NationalCode']??'';
         $gender=$_POST['gender']??'';
-        
+        if($NationalCode==null)
         echo '<h2 class="th">ثبت نام شما با موفقیت انجام شد</h2>';
         echo "$name"."&nbsp;"."&nbsp;"."عزیز"; 
         echo "<h4>برای ورود به سایت کافیست رو دکمه زیر کلیک کنید.</h4>";
