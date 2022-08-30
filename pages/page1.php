@@ -29,20 +29,19 @@
 </head>
 <body dir="rtl" style="margin: 10px;">
 
-
-        $name=$_GET['name']??'';
-        $age=$_GET['age']??'';
-        $numphon=$_GET['phonnumber']??'';
-        $NationalCode=$_GET['NationalCode']??'';
-        $gender=$_GET['gender']??'';
+    <?php
+        $name=$_POST['name']??'';
+        $age=$_POST['age']??'';
+        $numphon=$_POST['phonnumber']??'';
+        $NationalCode=$_POST['NationalCode']??'';
+        $gender=$_POST['gender']??'';
         
         echo '<h2 class="th">ثبت نام شما با موفقیت انجام شد</h2>';
         echo "$name"."&nbsp;"."&nbsp;"."عزیز"; 
         echo "<h4>برای ورود به سایت کافیست رو دکمه زیر کلیک کنید.</h4>";
-       echo '<a href="page2.php" class="on">ورود</a>';
+    ?>    
         
-        
-
+    <a href="page2.php" class="on">ورود</a>
     
      
 </body>
