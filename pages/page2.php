@@ -1,4 +1,4 @@
-<!DOCTYPE php_ini_scanned_files>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
