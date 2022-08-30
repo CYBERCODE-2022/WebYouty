@@ -1,4 +1,4 @@
-<!DOCTYPE php_ini_scanned_files>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,12 +7,12 @@
     <title>وبیوتی</title>
     <link rel="stylesheet" href="../css/style.css">
     <style>
-        *{
-            box-sizing: border-box;
-            margin: 3px;
-            padding:0px;
-        }
-        .serch1{
+*{
+    box-sizing: border-box;
+    margin: 3px;
+    padding:0px;
+}
+.serch1{
     display: block;
     border: none;
     width:300px;
