@@ -45,13 +45,12 @@ body{
     padding:6px;
     border-right: dashed #2ecc71; 
     background-color:#fff;
- 
 }
 .myform label{
     display: block;
     margin-top: 12px;
 }
 .main .myform form .lable{
-    display:block;
+    display: block;
     margin-top: 12px;
 }
