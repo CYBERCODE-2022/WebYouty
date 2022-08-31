@@ -42,11 +42,13 @@ body{
 }
 .main .myform form input[type="text"] , .main .myform form input[type="number"] , .main .myform form input[type="text"]{
     width:50%;
-    padding:6px;
+    padding: 6px;
     border-right: dashed #2ecc71; 
     background-color:#fff;
+    
 }
+
 .myform label{
+    margin-top: 15px;
     display: block;
-    margin-top: 12px;
 }
