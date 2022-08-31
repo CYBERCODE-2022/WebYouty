@@ -43,14 +43,14 @@
         $NationalCode=$_POST['NationalCode']??'';
         $gender=$_POST['gender']??'';
         
-        if($phonenum || $gender || $age || $name || $NationalCode==null){
-            echo '<h2 class="error">'.'لطفا'."&nbsp".'همه'."&nbsp;".'اطلاعات'."&nbsp".'خود'."&nbsp".'را'."&nbsp".'به'."&nbsp".'درستی'."&nbsp".'وارد'."&nbsp;".'کنید.'.'<h2/>';
-            echo "<br/>".'<a class="on" href="../index.html">'.'باشه'.'</a>';
-        }else{
+        if($phonenum || $gender || $age || $name || $NationalCode==!null){
             echo '<h2 class="th">ثبت نام شما با موفقیت انجام شد</h2>';
             echo "$name"."&nbsp;"."&nbsp;"."عزیز"; 
             echo "<h4>برای ورود به سایت کافیست رو دکمه زیر کلیک کنید.</h4>";
             echo '<a href="page2.php" class="on">ورود</a>';
+        }else{
+            echo '<h2 class="error">'.'لطفا'."&nbsp".'همه'."&nbsp;".'اطلاعات'."&nbsp".'خود'."&nbsp".'را'."&nbsp".'به'."&nbsp".'درستی'."&nbsp".'وارد'."&nbsp;".'کنید.'.'<h2/>';
+            echo "<br/>".'<a class="on" href="../index.html">'.'باشه'.'</a>';
         }
 
     ?>
