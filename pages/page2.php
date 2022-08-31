@@ -13,39 +13,39 @@
             padding:0px;
         }
         .serch1{
-    display: block;
-    border: none;
-    width:300px;
-    padding: 6px;
-}
+            display: block;
+            border: none;
+            width:300px;
+            padding: 6px;
+        }
 
-.serch2{
-    background-color:#2ecc71;
-    color: #fff;
-    width: 100px;
-    display: block;
-    border: none;
-    margin-top: 10px;
-    padding:6px;
-    border-radius: 5px;
-    font-weight: bold;
-}
-.serch2:hover{
-    background-color: #95a5a6;
-    cursor: pointer;
-}
-.error{
-    color: red;
-    font-size: 20px;
-    margin-bottom: -30px;
-}
-.title{
-    background: chartreuse;
-    text-align: center;
-    color:#fff;
-    font-size: 20px;
-    padding: 3px;
-}
+        .serch2{
+            background-color:#2ecc71;
+            color: #fff;
+            width: 100px;
+            display: block;
+            border: none;
+            margin-top: 10px;
+            padding:6px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .serch2:hover{
+            background-color: #95a5a6;
+            cursor: pointer;
+        }
+        .error{
+            color: red;
+            font-size: 20px;
+            margin-bottom: -30px;
+        }
+        .title{
+            background: chartreuse;
+            text-align: center;
+            color:#fff;
+            font-size: 20px;
+            padding: 3px;
+        }
     </style>
 </head>
 <body dir="rtl">

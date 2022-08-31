@@ -35,7 +35,7 @@
     </style>
 </head>
 <body dir="rtl" style="margin: 10px;">
-
+        
     <?php
         $name=$_POST['name']??'';
         $age=$_POST['age']??'';
@@ -53,10 +53,8 @@
             echo '<a href="page2.php" class="on">ورود</a>';
         }
 
-    ?>    
+    ?>
         
-    
-    
      
 </body>
 </html>
